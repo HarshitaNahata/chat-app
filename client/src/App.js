@@ -5,7 +5,7 @@ import Join from './components/Join/Join';
 import Chat from './components/Chat/Chat';
 
 const App = () => (
-    <Router>    
+    <Router>
         <Routes>
             <Route path="/" element={<Join />} />
             <Route path="/chat" element={<Chat />} />
